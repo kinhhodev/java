@@ -1,2 +1,6 @@
-# java
-Java Discovery
+# Java Deployment with Tomcat
+
+## Setup Tomcat 
+
+Maven MVC Website
+
