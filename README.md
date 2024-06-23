@@ -16,7 +16,7 @@
     * We use the command `mvn clean package` to build the `.war` file.
     * Access the `{tomcat}/webapps` folder and paste the `{project_name/target/}project_name.war` file of the projec into it.
     * Restart tomcat server
-        * 1. If using `Terminal` -> use command `sh shutdown.sh` in folder `tomcat/bin`
+        * 1. If using `Terminal` -> use command `sh shutdown.sh` and `sh startup.sh` in folder `tomcat/bin`
         * 2. Nếu dùng `IDE` thì restart tomcat application
     * Open server with port 8080
 * b. DeployDeploy method #2: copying unpacked Java web application directory

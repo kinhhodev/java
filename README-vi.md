@@ -16,7 +16,7 @@
     * Mọi người sử dụng câu lệnh `mvn clean package` để tạo ra `.war` file.
     * Truy cập vào thư mục `{tomcat}/webapps` và dán file `project_name/target/project_name.war` vào trong folder `tomcat/webapps`.
     * Khởi động lại tomcat
-        * 1. Nếu đang dùng `Terminal` -> sử dụng lệnh `sh shutdown.sh` ở trong folder bin của tomcat
+        * 1. Nếu đang dùng `Terminal` -> sử dụng lệnh `sh shutdown.sh` và lệnh `sh startup.sh` ở trong folder bin của tomcat
         * 2. Nếu dùng `IDE` thì tắt tomcat và chạy lại tomcat
     * Truy cập vào tomcat với cổng 8080 ( cổng mặc định của tomcat )
 * b. Chiến lược triển khai 2: copying unpacked Java web application directory - Sao chép dự án sau khi build vào thư mục webapps của tomcat
